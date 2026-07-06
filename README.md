@@ -121,9 +121,16 @@ frontend-interview-prep/
 
 | Day   | Topic                    | Status        |
 | ----- | ------------------------ | ------------- |
-| Day 1 | HTML Interview Questions | ✅ Completed   |
-| Day 2 | Semantic HTML            | ⏳ In Progress |
-| Day 3 | Forms & Validation       | 🔜 Planned    |
+| Day 1 | HTML Interview Questions |  ✅ Completed |
+| Day 2 | Semantic HTML            |  ✅ Completed |
+| Day 3 | challenge html-1         |  ✅ Completed |
+| Day 4 | Forms & Validation       |  ✅ Completed |
+| Day 5 | challenge html-2         |  ✅ Completed |
+| Day 6 | CSS                      |  ✅ Completed |
+| Day 7 | challenge css-1          |  ✅ Completed | 
+| Day 8 | CSS Grid                 |  ✅ Completed |
+| Day 9 | challenge css-2          |  ⏳ In Progress |
+| Day 10 | React                   |   🔜 Planned |
 
 ---
 
