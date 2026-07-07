@@ -1,6 +1,6 @@
-# Day 3 – CSS Basics
+# Day4 – Day1 CSS Basics
 
-Welcome to Day 3! This guide introduces the core fundamentals of styling web pages with CSS, covering how elements are targeted, how styles conflict, and how elements are structured visually on the screen.
+Welcome to Day 1! This guide introduces the core fundamentals of styling web pages with CSS, covering how elements are targeted, how styles conflict, and how elements are structured visually on the screen.
 
 ---
 
