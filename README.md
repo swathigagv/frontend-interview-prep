@@ -126,11 +126,15 @@ frontend-interview-prep/
 | Day 3 | challenge html-1         |  ✅ Completed |
 | Day 4 | Forms & Validation       |  ✅ Completed |
 | Day 5 | challenge html-2         |  ✅ Completed |
-| Day 6 | CSS                      |  ✅ Completed |
-| Day 7 | challenge css-1          |  ✅ Completed | 
-| Day 8 | CSS Grid                 |  ✅ Completed |
-| Day 9 | challenge css-2          |  ⏳ In Progress |
-| Day 10 | React                   |   🔜 Planned |
+| Day 6 | project 1                |  ✅ Completed |
+| Day 7 | CSS                      |  ✅ Completed |
+| Day 8 | challenge css-1          |  ✅ Completed | 
+| Day 9 | CSS Grid                 |  ✅ Completed |
+| Day 10 | challenge css-2         |  ✅ Completed |
+| Day 11 | CSS Flexbox             |  ✅ Completed |
+| Day 12 | challenge css-3         |  ✅ Completed |
+| Day 13 | project 2               |  ⏳ In Progress |
+| Day 14 | React                   |   🔜 Planned |
 
 ---
 
