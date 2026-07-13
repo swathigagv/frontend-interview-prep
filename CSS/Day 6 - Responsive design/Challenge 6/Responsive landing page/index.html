@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome — Swathiga</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+    <div class="grill"></div>
+    <div class="glow"></div>
+
+    <p class="eyebrow">Have it your way</p>
+
+    <div class="burger-stack" id="burgerStack">
+      <div class="layer bun-top" id="bunTop">
+        <span class="seed" style="top:30%; left:22%; --r:-15deg;"></span>
+        <span class="seed" style="top:18%; left:40%; --r:5deg;"></span>
+        <span class="seed" style="top:35%; left:58%; --r:-8deg;"></span>
+        <span class="seed" style="top:20%; left:75%; --r:18deg;"></span>
+        <span class="seed" style="top:40%; left:12%; --r:10deg;"></span>
+      </div>
+      <div class="layer lettuce"></div>
+      <div class="layer tomato"></div>
+      <div class="layer cheese"></div>
+      <div class="layer patty"></div>
+      <div class="layer bun-bottom"></div>
+    </div>
+
+    <div class="flash" id="flash"></div>
+
+    <div class="welcome-text">
+      <h1>World, welcome to<br><span>my page</span></h1>
+      <p>Swathiga — Frontend Developer</p>
+    </div>
+
+    <button class="replay-btn" id="replayBtn">↻ Replay</button>
+  </div>
+
+  <script>
+    // Optional JS: lets people replay the drop animation on demand
+    const replayBtn = document.getElementById('replayBtn');
+    const animatedEls = () => [
+      ...document.querySelectorAll('.layer'),
+      document.querySelector('.flash'),
+      document.querySelector('.welcome-text'),
+      replayBtn
+    ];
+
+    replayBtn.addEventListener('click', () => {
+      animatedEls().forEach(el => {
+        el.style.animation = 'none';
+        void el.offsetWidth; // force reflow so the animation restarts cleanly
+        el.style.animation = '';
+      });
+    });
+  </script>
+</body>
+</html>
