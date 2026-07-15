@@ -133,8 +133,10 @@ frontend-interview-prep/
 | Day 10 | challenge css-2         |  ✅ Completed |
 | Day 11 | CSS Flexbox             |  ✅ Completed |
 | Day 12 | challenge css-3         |  ✅ Completed |
-| Day 13 | project 2               |  ⏳ In Progress |
-| Day 14 | React                   |   🔜 Planned |
+| Day 13 | Javascript              |  ✅ Completed |
+| Day 14 | Challenge js-1          |  ✅ Completed |
+| Day 15 | project 2               |  ⏳ In Progress |
+| Day 16 | React                   |   🔜 Planned |
 
 ---
 
