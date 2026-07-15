@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber-Lockbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="console">
+    <h2>SYSTEM LOCKBOX</h2>
+    <div id="status-screen" class="screen locked">🔴 SYSTEM LOCKED</div>
+    
+    <div class="switches-container">
+      <button class="switch" onclick="toggleSwitch(0)">Switch A</button>
+      <button class="switch" onclick="toggleSwitch(1)">Switch B</button>
+      <button class="switch" onclick="toggleSwitch(2)">Switch C</button>
+      <button class="switch" onclick="toggleSwitch(3)">Switch D</button>
+    </div>
+
+    <button id="reset-btn" onclick="resetConsole()">Reset System</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
