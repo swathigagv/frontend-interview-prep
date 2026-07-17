@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Movie Vault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎬 The Movie Vault</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search movies (e.g., Batman, Marvel)..." required />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+
+    <div class="layout">
+      <main class="movie-grid" id="movie-grid">
+        <p>Search for a movie to populate the vault!</p>
+      </main>
+
+      <aside class="favorites-list">
+        <h3>⭐ My Favorites</h3>
+        <ul id="favorites-container"></ul>
+      </aside>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
