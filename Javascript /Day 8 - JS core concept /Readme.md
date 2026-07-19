@@ -40,3 +40,5 @@ A beginner-friendly cheat sheet for mastering advanced JavaScript concepts, asyn
 ### 8. ES6+ Features
 * **Definition:** Modern updates and syntax upgrades introduced to JavaScript (like arrow functions, destructuring, and template literals) that make code shorter and easier to read.
 * **Real-Time Example:** Like switching from an **old manual typewriter** to a **modern laptop** with autocorrect, shortcuts, and smart formatting tools.
+
+Happy Learning!
