@@ -137,8 +137,10 @@ frontend-interview-prep/
 | Day 14 | Challenge js-1          |  ✅ Completed |
 | Day 15 | Javascript-core values  |  ✅ Completed |
 | Day 16 | Challenge js-2          |  ✅ Completed |
-| Day 17 | project 2               |  ⏳ In Progress |
-| Day 18 | React                   |   🔜 Planned |
+| Day 17 | project 2               |  ✅ Completed |
+| Day 18 | Advance JS              |  ✅ Completed |
+| Day 19 | challenge js-3          | ⏳ In Progress |
+| Day 20 | React                   |   🔜 Planned |
 
 ---
 
