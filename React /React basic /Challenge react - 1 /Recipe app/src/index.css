@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+header{
+  top:0;
+  left:0;
+  position:fixed;
+  background-color: antiquewhite;
+  display:flex;
+  width:100%;
+  height:40px;
+  align-items: center;
+  padding:0 20px;
+  justify-content: center;
+  z-index:1000;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+.kitset{
+  gap: 15px;
+  display:flex;
+  flex-direction: row-reverse;
+}
+
+.kitset h1 {
+  font-size: 20px;
+  margin:0;
+}
+main{
+  padding-top: 35px;
+}
+.add-ingredient-form{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display:flex;
+  gap:12px;
+  justify-content: center;
+}
+
+.add-ingredient-form input{
+  width: 40rem;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  border: 1px solid #D1D5DB;
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+.add-ingredient-form button{
+  background-color: #ebedf0;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(218, 117, 34);
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.add-ingredient-form > button::before {
+    content: "+";
+    margin-right: 15px;
+}
+.ul ingredients-list{
+    align-content: space-between;
+    justify-items: left;
+}
+.ul ingredients-list > li{
+    align-items: center;
+}
+.ingredients-list{
+  justify-content: left;
+}
+.get-recipe-container{
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
+  align-items:center;
+  display:flex;
+  background-color: #F0EFEB;
+  border-radius: 8px;
+  padding:10px 20px;
+}
+.get-recipe-container p{
+  font-weight: 100;
+  font-size: medium;
+  color: grey;
+}
+.get-recipe-container button{
+  flex-direction: row;
+  background: #D17557;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #FAFAF8;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding:10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
