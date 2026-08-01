@@ -142,8 +142,10 @@ frontend-interview-prep/
 | Day 19 | challenge js-3          |  ✅ Completed |
 | Day 20 | React basics            |  ✅ Completed |
 | Day 21 | React hooks             |  ✅ Completed |
-| Day 22 | challenge react-1       |⏳ In Progress |
-| Day 23 | React project           |   🔜 Planned |
+| Day 22 | challenge react-1       |  ✅ Completed |
+| Day 23 | challenge react-2       |  ✅ Completed |
+| Day 24 | React project           |⏳ In Progress |
+| Day 25 | project                 |   🔜 Planned |
 
 ---
 
