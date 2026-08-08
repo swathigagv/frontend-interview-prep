@@ -13,7 +13,14 @@ A collection of frontend projects built to strengthen my skills in **HTML, CSS, 
 - ✅ **To-Do App**
   - An interactive task management application that demonstrates DOM manipulation, event handling, Local Storage, and responsive user interface development.
 
-### ⚛️ React *(Upcoming)*
+### ⚛️ HTML,CSS & React (VITE)
+
+- 🗺️ **Travel Journal**
+   - A travel journal application for documenting and exploring places using React, with features such as Google Maps integration, drag-and-drop interactions, and interactive travel entries.
+
+Practiced React fundamentals including useState for managing application state and useEffect for handling side effects and external data.
+
 More React projects are coming soon to practice component-based architecture, state management, API integration, routing, and modern frontend development.
 
 Stay tuned! 🚀
+
