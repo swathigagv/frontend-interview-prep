@@ -144,8 +144,9 @@ frontend-interview-prep/
 | Day 21 | React hooks             |  ✅ Completed |
 | Day 22 | challenge react-1       |  ✅ Completed |
 | Day 23 | challenge react-2       |  ✅ Completed |
-| Day 24 | React project           |⏳ In Progress |
-| Day 25 | project                 |   🔜 Planned |
+| Day 24 | React project           |  ✅ Completed |
+| Day 25 | React Advan project     |⏳ In Progress |
+| Day 26 | project                 |   🔜 Planned |
 
 ---
 
