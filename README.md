@@ -115,6 +115,10 @@ frontend-interview-prep/
 * Interview Challenges
 * Frontend Case Studies
 
+For a deeper dive into React, check out this 
+GitHub repository:[https://github.com/swathigagv/react-component-library]
+, which features projects for practice and learning.
+
 ---
 
 ## 📝 Daily Progress
