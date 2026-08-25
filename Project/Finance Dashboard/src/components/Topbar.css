@@ -1,0 +1,84 @@
+.topbar {
+  height: 64px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Shared button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.15s;
+  border: none;
+}
+
+.btn-ghost {
+  background-color: var(--surface2);
+  color: var(--muted2);
+  border: 1px solid var(--border);
+}
+
+.btn-ghost:hover {
+  background-color: var(--surface2);
+  color: var(--text);
+  filter: brightness(1.1);
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-accent:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.btn-accent:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--muted2);
+  transition: all 0.15s;
+}
+
+.icon-btn:hover {
+  background-color: var(--surface2);
+  color: var(--text);
+  filter: brightness(1.1);
+}

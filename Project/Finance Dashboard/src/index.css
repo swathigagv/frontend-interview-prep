@@ -1,0 +1,59 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:        #f4f4f0;
+  --surface:   #ffffff;
+  --surface2:  #f0eff8;
+  --border:    rgba(0, 0, 0, 0.08);
+  --text:      #0f0f18;
+  --muted:     #8888a0;
+  --muted2:    #5c5c78;
+  --income:    #16a34a;
+  --expense:   #dc2626;
+  --accent:    #10b981;
+}
+
+[data-theme="dark"] {
+  --bg:       #0a0a0f;
+  --surface:  #111118;
+  --surface2: #18181f;
+  --border:   rgba(255, 255, 255, 0.07);
+  --text:     #f0f0f5;
+  --muted:    #6b6b80;
+  --muted2:   #9999b0;
+  --income:   #34d399;
+  --expense:  #f87171;
+  --accent:   #34d399;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+input, select {
+  font-family: inherit;
+  outline: none;
+}
+
+a { text-decoration: none; color: inherit; }
